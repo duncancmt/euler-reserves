@@ -173,23 +173,11 @@ contract EulerReserves is Script {
       vm.serializeUint(outputKey, underlyingStr, reserve);
 
       (bool success, bytes memory returnData) = underlying.staticcall(abi.encodeCall(IERC20Meta(underlying).name, ()));
-      if (success && returnData.length > 64) {
-        vm.serializeString(outputKey, string.concat(underlyingStr, "_name"), abi.decode(returnData, (string)));
-      } else {
-        vm.serializeString(outputKey, string.concat(underlyingStr, "_name"), "unknown");
-      }
+      vm.serializeString(outputKey, string.concat(underlyingStr, "_name"), success && returnData.length > 64 ? abi.decode(returnData, (string)) : "unknown");
       (success, returnData) = underlying.staticcall(abi.encodeCall(IERC20Meta(underlying).symbol, ()));
-      if (success && returnData.length > 64) {
-        vm.serializeString(outputKey, string.concat(underlyingStr, "_symbol"), abi.decode(returnData, (string)));
-      } else {
-        vm.serializeString(outputKey, string.concat(underlyingStr, "_symbol"), "unknown");
-      }
+      vm.serializeString(outputKey, string.concat(underlyingStr, "_symbol"), success && returnData.length > 64 ? abi.decode(returnData, (string)) : "unknown");
       (success, returnData) = underlying.staticcall(abi.encodeCall(IERC20Meta(underlying).decimals, ()));
-      if (success && returnData.length >= 32) {
-        outputJson = vm.serializeUint(outputKey, string.concat(underlyingStr, "_decimals"), abi.decode(returnData, (uint8)));
-      } else {
-        outputJson = vm.serializeUint(outputKey, string.concat(underlyingStr, "_decimals"), 0);
-      }
+      outputJson = vm.serializeUint(outputKey, string.concat(underlyingStr, "_decimals"), returnData.length >= 32 ? abi.decode(returnData, (uint8)) : 0);
     }
     vm.writeJson(outputJson, "./output.json");
   }
