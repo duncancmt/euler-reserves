@@ -169,15 +169,23 @@ contract EulerReserves is Script {
     for (uint256 i; i < underlyings.length; i++) {
       address underlying = underlyings[i];
       uint256 reserve = _MARKETS.underlyingToEToken(underlying).reserveBalanceUnderlying();
-      string memory underlyingStr = vm.toString(underlying);
-      vm.serializeUint(outputKey, underlyingStr, reserve);
+
+      string memory underlyingKey = vm.toString(underlying);
+      string memory underlyingJson = vm.serializeUint(underlyingKey, "reserve", reserve);
 
       (bool success, bytes memory returnData) = underlying.staticcall(abi.encodeCall(IERC20Meta(underlying).name, ()));
-      vm.serializeString(outputKey, string.concat(underlyingStr, "_name"), success && returnData.length > 64 ? abi.decode(returnData, (string)) : "unknown");
+      if (success && returnData.length > 64) {
+        underlyingJson = vm.serializeString(underlyingKey, "name", abi.decode(returnData, (string)));
+      }
       (success, returnData) = underlying.staticcall(abi.encodeCall(IERC20Meta(underlying).symbol, ()));
-      vm.serializeString(outputKey, string.concat(underlyingStr, "_symbol"), success && returnData.length > 64 ? abi.decode(returnData, (string)) : "unknown");
+      if (success && returnData.length > 64) {
+        underlyingJson = vm.serializeString(underlyingKey, "symbol", abi.decode(returnData, (string)));
+      }
       (success, returnData) = underlying.staticcall(abi.encodeCall(IERC20Meta(underlying).decimals, ()));
-      outputJson = vm.serializeUint(outputKey, string.concat(underlyingStr, "_decimals"), returnData.length >= 32 ? abi.decode(returnData, (uint8)) : 0);
+      if (returnData.length >= 32) {
+        underlyingJson = vm.serializeUint(underlyingKey, "decimals", abi.decode(returnData, (uint8)));
+      }
+      outputJson = vm.serializeString(outputKey, underlyingKey, underlyingJson);
     }
     vm.writeJson(outputJson, "./output.json");
   }
