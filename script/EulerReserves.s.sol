@@ -4,6 +4,10 @@ pragma solidity ^0.8.19;
 import "forge-std/Script.sol";
 import "forge-std/console.sol";
 
+interface IDecimals {
+  function decimals() external view returns (uint8);
+}
+
 interface IEToken {
   function reserveBalanceUnderlying() external view returns (uint256);
 }
@@ -163,7 +167,10 @@ contract EulerReserves is Script {
     for (uint256 i; i < underlyings.length; i++) {
       address underlying = underlyings[i];
       uint256 reserve = _MARKETS.underlyingToEToken(underlying).reserveBalanceUnderlying();
-      outputJson = vm.serializeUint(outputKey, vm.toString(underlying), reserve);
+      uint8 decimals = IDecimals(underlying).decimals();
+      string memory underlyingStr = vm.toString(underlying);
+      vm.serializeUint(outputKey, underlyingStr, reserve);
+      outputJson = vm.serializeUint(outputKey, string.concat(underlyingStr, "_decimals"), decimals);
     }
     vm.writeJson(outputJson, "./output.json");
   }
