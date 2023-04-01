@@ -4,7 +4,9 @@ pragma solidity ^0.8.19;
 import "forge-std/Script.sol";
 import "forge-std/console.sol";
 
-interface IDecimals {
+interface IERC20Meta {
+  function name() external view returns (string memory);
+  function symbol() external view returns (string memory);
   function decimals() external view returns (uint8);
 }
 
@@ -167,10 +169,27 @@ contract EulerReserves is Script {
     for (uint256 i; i < underlyings.length; i++) {
       address underlying = underlyings[i];
       uint256 reserve = _MARKETS.underlyingToEToken(underlying).reserveBalanceUnderlying();
-      uint8 decimals = IDecimals(underlying).decimals();
       string memory underlyingStr = vm.toString(underlying);
       vm.serializeUint(outputKey, underlyingStr, reserve);
-      outputJson = vm.serializeUint(outputKey, string.concat(underlyingStr, "_decimals"), decimals);
+
+      (bool success, bytes memory returnData) = underlying.staticcall(abi.encodeCall(IERC20Meta(underlying).name, ()));
+      if (success && returnData.length > 64) {
+        vm.serializeString(outputKey, string.concat(underlyingStr, "_name"), abi.decode(returnData, (string)));
+      } else {
+        vm.serializeString(outputKey, string.concat(underlyingStr, "_name"), "unknown");
+      }
+      (success, returnData) = underlying.staticcall(abi.encodeCall(IERC20Meta(underlying).symbol, ()));
+      if (success && returnData.length > 64) {
+        vm.serializeString(outputKey, string.concat(underlyingStr, "_symbol"), abi.decode(returnData, (string)));
+      } else {
+        vm.serializeString(outputKey, string.concat(underlyingStr, "_symbol"), "unknown");
+      }
+      (success, returnData) = underlying.staticcall(abi.encodeCall(IERC20Meta(underlying).decimals, ()));
+      if (success && returnData.length >= 32) {
+        outputJson = vm.serializeUint(outputKey, string.concat(underlyingStr, "_decimals"), abi.decode(returnData, (uint8)));
+      } else {
+        outputJson = vm.serializeUint(outputKey, string.concat(underlyingStr, "_decimals"), 0);
+      }
     }
     vm.writeJson(outputJson, "./output.json");
   }
