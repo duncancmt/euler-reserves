@@ -8,13 +8,13 @@
   "0x03ab458634910AaD20eF5f1C8ee96F1D6ac54919": {
     "decimals": 18,
     "name": "Rai Reflex Index",
-    "reserve": 1875486766595682868106,
+    "reserve": 1875498276383379831059,
     "symbol": "RAI"
   },
   "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd": {
     "decimals": 2,
     "name": "Gemini dollar",
-    "reserve": 4631,
+    "reserve": 4632,
     "symbol": "GUSD"
   },
   "0x08A75dbC7167714CeaC1a8e43a8d643A4EDd625a": {
@@ -38,19 +38,19 @@
   "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e": {
     "decimals": 18,
     "name": "yearn.finance",
-    "reserve": 75821913835864796,
+    "reserve": 75822172239288142,
     "symbol": "YFI"
   },
   "0x0d438F3b5175Bebc262bF23753C1E53d03432bDE": {
     "decimals": 18,
     "name": "Wrapped NXM",
-    "reserve": 6547021330875660464,
+    "reserve": 6547048245812236371,
     "symbol": "wNXM"
   },
   "0x111111111117dC0aa78b770fA6A738034120C302": {
     "decimals": 18,
     "name": "1INCH Token",
-    "reserve": 790610297839057137765,
+    "reserve": 790615119675597446529,
     "symbol": "1INCH"
   },
   "0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b": {
@@ -62,37 +62,37 @@
   "0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671": {
     "decimals": 18,
     "name": "Numeraire",
-    "reserve": 51927049766262275,
+    "reserve": 51932324945262058,
     "symbol": "NMR"
   },
   "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8": {
     "decimals": 18,
     "name": "agEUR",
-    "reserve": 22491632472833900154546,
+    "reserve": 22491632483277862563243,
     "symbol": "agEUR"
   },
   "0x1cEB5cB57C4D4E2b2433641b95Dd330A33185A44": {
     "decimals": 18,
     "name": "Keep3rV1",
-    "reserve": 12386564800162384,
+    "reserve": 12387664017424985,
     "symbol": "KP3R"
   },
   "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984": {
     "decimals": 18,
     "name": "Uniswap",
-    "reserve": 5106002849083442850900,
+    "reserve": 5106006922896865365899,
     "symbol": "UNI"
   },
   "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
     "decimals": 8,
     "name": "Wrapped BTC",
-    "reserve": 307289750,
+    "reserve": 307289795,
     "symbol": "WBTC"
   },
   "0x227c7DF69D3ed1ae7574A1a7685fDEd90292EB48": {
     "decimals": 18,
     "name": "Milady Maker",
-    "reserve": 56444079821251602,
+    "reserve": 56444091229147938,
     "symbol": "MILADY"
   },
   "0x23B608675a2B2fB1890d3ABBd85c5775c51691d5": {
@@ -134,13 +134,13 @@
   "0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3": {
     "decimals": 18,
     "name": "Radicle",
-    "reserve": 120764729905270372373,
+    "reserve": 120764920892072090865,
     "symbol": "RAD"
   },
   "0x321C2fE4446C7c963dc41Dd58879AF648838f98D": {
     "decimals": 18,
     "name": "Cryptex",
-    "reserve": 10548275984343330696142,
+    "reserve": 10548307049620145584183,
     "symbol": "CTX"
   },
   "0x33349B282065b0284d756F0577FB39c158F935e6": {
@@ -152,13 +152,13 @@
   "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0": {
     "decimals": 18,
     "name": "Frax Share",
-    "reserve": 7383995866845963669,
+    "reserve": 7384018025364767225,
     "symbol": "FXS"
   },
   "0x3472A5A71965499acd81997a54BBA8D852C6E53d": {
     "decimals": 18,
     "name": "Badger",
-    "reserve": 468919141039470389783,
+    "reserve": 468919549179261523313,
     "symbol": "BADGER"
   },
   "0x3832d2F059E55934220881F831bE501D180671A7": {
@@ -176,7 +176,7 @@
   "0x3b484b82567a09e2588A13D54D032153f0c0aEe0": {
     "decimals": 18,
     "name": "SOS",
-    "reserve": 1136682830279966538823034,
+    "reserve": 1136685232235077734149564,
     "symbol": "SOS"
   },
   "0x4691937a7508860F876c9c0a2a617E7d9E945D4B": {
@@ -200,43 +200,43 @@
   "0x4Fabb145d64652a948d72533023f6E7A623C7C53": {
     "decimals": 18,
     "name": "Binance USD",
-    "reserve": 106397293138196209559,
+    "reserve": 106398066442719010034,
     "symbol": "BUSD"
   },
   "0x4a220E6096B25EADb88358cb44068A3248254675": {
     "decimals": 18,
     "name": "Quant",
-    "reserve": 5054832197359007,
+    "reserve": 5054882400433870,
     "symbol": "QNT"
   },
   "0x4d224452801ACEd8B2F0aebE155379bb5D594381": {
     "decimals": 18,
     "name": "ApeCoin",
-    "reserve": 91539672433307129428,
+    "reserve": 91540240630173310656,
     "symbol": "APE"
   },
   "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B": {
     "decimals": 18,
     "name": "Convex Token",
-    "reserve": 377956498769057219711,
+    "reserve": 377956704493904399705,
     "symbol": "CVX"
   },
   "0x50D1c9771902476076eCFc8B2A83Ad6b9355a4c9": {
     "decimals": 18,
     "name": "FTT",
-    "reserve": 663101025358105,
+    "reserve": 663753256649126,
     "symbol": "FTX Token"
   },
   "0x514910771AF9Ca656af840dff83E8264EcF986CA": {
     "decimals": 18,
     "name": "ChainLink Token",
-    "reserve": 3238134395168147338118,
+    "reserve": 3238136342098772184284,
     "symbol": "LINK"
   },
   "0x53BcCB38A174aDCa09D5103D561D1cB99BFe97af": {
     "decimals": 18,
     "name": "ELITECLUB",
-    "reserve": 1151137146077234920786,
+    "reserve": 1151139732016834575397,
     "symbol": "ELITE"
   },
   "0x53a0340ED6BA1Fd460608e2CD0424A339B56D3E2": {
@@ -266,7 +266,7 @@
   "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32": {
     "decimals": 18,
     "name": "Lido DAO Token",
-    "reserve": 13921120255229226422962,
+    "reserve": 13921127413400443820604,
     "symbol": "LDO"
   },
   "0x5dD57Da40e6866C9FcC34F4b6DDC89F1BA740DfE": {
@@ -278,7 +278,7 @@
   "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0": {
     "decimals": 18,
     "name": "LUSD Stablecoin",
-    "reserve": 6523864918445601413411,
+    "reserve": 6523975653504533133913,
     "symbol": "LUSD"
   },
   "0x607F4C5BB672230e8672085532f7e901544a7375": {
@@ -290,19 +290,19 @@
   "0x6100dd79fCAA88420750DceE3F735d168aBcB771": {
     "decimals": 18,
     "name": "Ethereans",
-    "reserve": 98749313712770781,
+    "reserve": 98750036881614863,
     "symbol": "OS"
   },
   "0x6123B0049F904d730dB3C36a31167D9d4121fA6B": {
     "decimals": 18,
     "name": "Ribbon",
-    "reserve": 90460506252964730221597,
+    "reserve": 90460508859103981801580,
     "symbol": "RBN"
   },
   "0x6243d8CEA23066d098a15582d81a598b4e8391F4": {
     "decimals": 18,
     "name": "Flex Ungovernance Token",
-    "reserve": 4920349212178797,
+    "reserve": 4920349212246805,
     "symbol": "FLX"
   },
   "0x62B9c7356A2Dc64a1969e19C23e4f579F9810Aa7": {
@@ -320,13 +320,13 @@
   "0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5": {
     "decimals": 9,
     "name": "Olympus",
-    "reserve": 1209452105,
+    "reserve": 1209588967,
     "symbol": "OHM"
   },
   "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
     "decimals": 18,
     "name": "Dai Stablecoin",
-    "reserve": 196980242635145035547843,
+    "reserve": 196980251475547609312875,
     "symbol": "DAI"
   },
   "0x6BeA7CFEF803D1e3d5f7C0103f7ded065644e197": {
@@ -338,7 +338,7 @@
   "0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D": {
     "decimals": 18,
     "name": "LQTY",
-    "reserve": 99550684200095017736,
+    "reserve": 99552563316665378180,
     "symbol": "LQTY"
   },
   "0x6De037ef9aD2725EB40118Bb1702EBb27e4Aeb24": {
@@ -356,7 +356,7 @@
   "0x767FE9EDC9E0dF98E07454847909b5E959D7ca0E": {
     "decimals": 18,
     "name": "Illuvium",
-    "reserve": 84078834032940490,
+    "reserve": 84082005930051167,
     "symbol": "ILV"
   },
   "0x77777FeDdddFfC19Ff86DB637967013e6C6A116C": {
@@ -374,13 +374,13 @@
   "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0": {
     "decimals": 18,
     "name": "Matic Token",
-    "reserve": 13066296955003127636522,
+    "reserve": 13066297445994798873104,
     "symbol": "MATIC"
   },
   "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9": {
     "decimals": 18,
     "name": "Aave Token",
-    "reserve": 15139940741068649643,
+    "reserve": 15140059862301008599,
     "symbol": "AAVE"
   },
   "0x7b35Ce522CB72e4077BaeB96Cb923A5529764a00": {
@@ -392,19 +392,19 @@
   "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
     "decimals": 18,
     "name": "Wrapped liquid staked Ether 2.0",
-    "reserve": 73374004794706856026,
+    "reserve": 73374063571934093030,
     "symbol": "wstETH"
   },
   "0x8207c1FfC5B6804F6024322CcF34F29c3541Ae26": {
     "decimals": 18,
     "name": "OriginToken",
-    "reserve": 683454802825906836511,
+    "reserve": 683471708837143034289,
     "symbol": "OGN"
   },
   "0x853d955aCEf822Db058eb8505911ED77F175b99e": {
     "decimals": 18,
     "name": "Frax",
-    "reserve": 419355547421743561138,
+    "reserve": 419355974769598231409,
     "symbol": "FRAX"
   },
   "0x875773784Af8135eA0ef43b5a374AaD105c5D39e": {
@@ -422,7 +422,7 @@
   "0x8Fc8f8269ebca376D046Ce292dC7eaC40c8D358A": {
     "decimals": 8,
     "name": "DeFiChain Token",
-    "reserve": 101933050,
+    "reserve": 101934775,
     "symbol": "DFI"
   },
   "0x8f8221aFbB33998d8584A2B05749bA73c37a938a": {
@@ -446,19 +446,19 @@
   "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE": {
     "decimals": 18,
     "name": "SHIBA INU",
-    "reserve": 506123013037173766725234175,
+    "reserve": 506123047568435927919730437,
     "symbol": "SHIB"
   },
   "0x99D8a9C45b2ecA8864373A26D1459e3Dff1e17F3": {
     "decimals": 18,
     "name": "Magic Internet Money",
-    "reserve": 359173273750711734437,
+    "reserve": 359174838741451171083,
     "symbol": "MIM"
   },
   "0x99ea4dB9EE77ACD40B119BD1dC4E33e1C070b80d": {
     "decimals": 18,
     "name": "Quantstamp Token",
-    "reserve": 213473522932207174221231,
+    "reserve": 213474382245654035547651,
     "symbol": "QSP"
   },
   "0x9C4A4204B79dd291D6b6571C5BE8BbcD0622F050": {
@@ -481,12 +481,12 @@
   },
   "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2": {
     "decimals": 18,
-    "reserve": 659996523549099337
+    "reserve": 660004621949890229
   },
   "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
     "decimals": 6,
     "name": "USD Coin",
-    "reserve": 961816577274,
+    "reserve": 961816898634,
     "symbol": "USDC"
   },
   "0xA2cd3D43c775978A96BdBf12d733D5A1ED94fb18": {
@@ -504,49 +504,49 @@
   "0xAa6E8127831c9DE45ae56bB1b0d4D4Da6e5665BD": {
     "decimals": 18,
     "name": "ETH 2x Flexible Leverage Index",
-    "reserve": 1051101485671617359,
+    "reserve": 1051101486056299511,
     "symbol": "ETH2x-FLI"
   },
   "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6": {
     "decimals": 18,
     "name": "StargateToken",
-    "reserve": 127130404497743407168812,
+    "reserve": 127130404497743733970344,
     "symbol": "STG"
   },
   "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206": {
     "decimals": 18,
     "name": "Nexo",
-    "reserve": 794483931930842067805,
+    "reserve": 794484111557913379440,
     "symbol": "NEXO"
   },
   "0xBB0E17EF65F82Ab018d8EDd776e8DD940327B28b": {
     "decimals": 18,
     "name": "Axie Infinity Shard",
-    "reserve": 46303397619976168118,
+    "reserve": 46303695727383796833,
     "symbol": "AXS"
   },
   "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD": {
     "decimals": 18,
     "name": "LoopringCoin V2",
-    "reserve": 13331129692302055265,
+    "reserve": 13331913588215894512,
     "symbol": "LRC"
   },
   "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704": {
     "decimals": 18,
     "name": "Coinbase Wrapped Staked ETH",
-    "reserve": 789481759580428640,
+    "reserve": 789484127853486777,
     "symbol": "cbETH"
   },
   "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F": {
     "decimals": 18,
     "name": "Synthetix Network Token",
-    "reserve": 165953756300592265738,
+    "reserve": 165954695586369484621,
     "symbol": "SNX"
   },
   "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
     "decimals": 18,
     "name": "Wrapped Ether",
-    "reserve": 342988494191535356249,
+    "reserve": 342988871705423387342,
     "symbol": "WETH"
   },
   "0xC0c293ce456fF0ED870ADd98a0828Dd4d2903DBF": {
@@ -558,7 +558,7 @@
   "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72": {
     "decimals": 18,
     "name": "Ethereum Name Service",
-    "reserve": 1683815455097124283068,
+    "reserve": 1683815665728673092913,
     "symbol": "ENS"
   },
   "0xCC8Fa225D80b9c7D42F96e9570156c65D6cAAa25": {
@@ -570,13 +570,13 @@
   "0xD33526068D116cE69F19A9ee46F0bd304F21A51f": {
     "decimals": 18,
     "name": "Rocket Pool Protocol",
-    "reserve": 11013201966578570379,
+    "reserve": 11013232754099340328,
     "symbol": "RPL"
   },
   "0xD533a949740bb3306d119CC777fa900bA034cd52": {
     "decimals": 18,
     "name": "Curve DAO Token",
-    "reserve": 11258332430323675769,
+    "reserve": 11258627435599161369,
     "symbol": "CRV"
   },
   "0xDc5864eDe28BD4405aa04d93E05A0531797D9D59": {
@@ -594,7 +594,7 @@
   "0xDe30da39c46104798bB5aA3fe8B9e0e1F348163F": {
     "decimals": 18,
     "name": "Gitcoin",
-    "reserve": 377022777917621994045,
+    "reserve": 377023745320857894847,
     "symbol": "GTC"
   },
   "0xEDB171C18cE90B633DB442f2A6F72874093b49Ef": {
@@ -618,13 +618,13 @@
   "0xF57e7e7C23978C3cAEC3C3548E3D615c346e79fF": {
     "decimals": 18,
     "name": "Immutable X",
-    "reserve": 24800044051501007084,
+    "reserve": 24800752172286451680,
     "symbol": "IMX"
   },
   "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c": {
     "decimals": 18,
     "name": "Enjin Coin",
-    "reserve": 6568205494881515771,
+    "reserve": 6569842419666182539,
     "symbol": "ENJ"
   },
   "0xFe2e637202056d30016725477c5da089Ab0A043A": {
@@ -636,7 +636,7 @@
   "0xa117000000f279D81A1D3cc75430fAA017FA5A2e": {
     "decimals": 18,
     "name": "Aragon Network Token",
-    "reserve": 7176240800861296878,
+    "reserve": 7176627803535960496,
     "symbol": "ANT"
   },
   "0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2": {
@@ -654,7 +654,7 @@
   "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84": {
     "decimals": 18,
     "name": "Liquid staked Ether 2.0",
-    "reserve": 677018445133112402,
+    "reserve": 677021886403676165,
     "symbol": "stETH"
   },
   "0xb05097849BCA421A3f51B249BA6CCa4aF4b97cb9": {
@@ -666,19 +666,19 @@
   "0xbC396689893D065F41bc2C6EcbeE5e0085233447": {
     "decimals": 18,
     "name": "Perpetual",
-    "reserve": 50599994662561950729,
+    "reserve": 50600114077077145084,
     "symbol": "PERP"
   },
   "0xba100000625a3754423978a60c9317c58a424e3D": {
     "decimals": 18,
     "name": "Balancer",
-    "reserve": 781210530995408847,
+    "reserve": 781229858119811438,
     "symbol": "BAL"
   },
   "0xc00e94Cb662C3520282E6f5717214004A7f26888": {
     "decimals": 18,
     "name": "Compound",
-    "reserve": 26034909507621532271,
+    "reserve": 26035104033253519922,
     "symbol": "COMP"
   },
   "0xc2544A32872A91F4A553b404C6950e89De901fdb": {
@@ -702,7 +702,7 @@
   "0xc944E90C64B2c07662A292be6244BDf05Cda44a7": {
     "decimals": 18,
     "name": "Graph Token",
-    "reserve": 51172550390100851615283,
+    "reserve": 51172817360211881944109,
     "symbol": "GRT"
   },
   "0xcB84d72e61e383767C4DFEb2d8ff7f4FB89abc6e": {
@@ -714,37 +714,37 @@
   "0xcaDC0acd4B445166f12d2C07EAc6E2544FbE2Eef": {
     "decimals": 18,
     "name": "CAD Coin",
-    "reserve": 449300613384463443,
+    "reserve": 449301538066796221,
     "symbol": "CADC"
   },
   "0xd1ba9BAC957322D6e8c07a160a3A8dA11A0d2867": {
     "decimals": 18,
     "name": "Human Token",
-    "reserve": 707049999130274170853364,
+    "reserve": 707051133343839191878359,
     "symbol": "HMT"
   },
   "0xd909C5862Cdb164aDB949D92622082f0092eFC3d": {
     "decimals": 18,
     "name": "Interest Protocol",
-    "reserve": 10645275331266809924231,
+    "reserve": 10645319068574791344403,
     "symbol": "IPT"
   },
   "0xd9Fcd98c322942075A5C3860693e9f4f03AAE07b": {
     "decimals": 18,
     "name": "Euler",
-    "reserve": 12685050916605638607325,
+    "reserve": 12685050935557991500595,
     "symbol": "EUL"
   },
   "0xdAC17F958D2ee523a2206206994597C13D831ec7": {
     "decimals": 6,
     "name": "Tether USD",
-    "reserve": 146324996332,
+    "reserve": 146325720665,
     "symbol": "USDT"
   },
   "0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF": {
     "decimals": 18,
     "name": "Alchemix",
-    "reserve": 376952849374826122,
+    "reserve": 376958239224617805,
     "symbol": "ALCX"
   },
   "0xdab396cCF3d84Cf2D07C4454e10C8A6F5b008D2b": {
@@ -756,13 +756,13 @@
   "0xf1B99e3E573A1a9C5E6B2Ce818b617F0E664E86B": {
     "decimals": 18,
     "name": "Opyn Squeeth",
-    "reserve": 23682000334720404786,
+    "reserve": 23682004271934964551,
     "symbol": "oSQTH"
   },
   "0xf1Dc500FdE233A4055e25e5BbF516372BC4F6871": {
     "decimals": 18,
     "name": "Saddle DAO",
-    "reserve": 4690143901042243415493624,
+    "reserve": 4690143901042243426988366,
     "symbol": "SDL"
   },
   "0xf4d2888d29D722226FafA5d9B24F9164c092421E": {

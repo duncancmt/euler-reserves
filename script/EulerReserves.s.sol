@@ -22,7 +22,7 @@ interface IMarkets {
 contract EulerReserves is Script {
   //address private constant _EULER = 0x27182842E098f60e3D576794A5bFFb0777E025d3;
   IMarkets private constant _MARKETS = IMarkets(0x3520d5a913427E6F0D6A83E07ccD4A4da316e4d3);
-  uint256 private constant _FORK_BLOCK = 16_817_992; // the block before the hack contract was deployed
+  uint256 private constant _FORK_BLOCK = 16_817_995; // the block before the first hack contract drained DAI
 
   function setUp() public {}
 
