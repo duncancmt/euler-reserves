@@ -32,6 +32,6 @@ contract EulerReserves is Common {
       // intermediate JSON is stored in outputJson before we write it to disk.
       outputJson = vm.serializeString(outputKey, underlyingKey, underlyingJson);
     }
-    vm.writeJson(outputJson, "./output.json");
+    vm.writeJson(outputJson, "./reserves.json");
   }
 }
