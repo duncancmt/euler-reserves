@@ -2527,5 +2527,513 @@
       "name": "Wrapped Ether",
       "symbol": "WETH"
     }
+  },
+  "0x1267f79d6988977411338bb494F26678C7f281BA": {
+    "0xf1B99e3E573A1a9C5E6B2Ce818b617F0E664E86B": {
+      "collateral": 421253349990601463,
+      "decimals": 18,
+      "name": "Opyn Squeeth",
+      "symbol": "oSQTH"
+    }
+  },
+  "0x127168570D34E3D19aC3eAa75Fe9B841DE0F78f9": {
+    "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
+      "borrow": 53227638007993423940,
+      "decimals": 18,
+      "name": "Dai Stablecoin",
+      "symbol": "DAI"
+    },
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+      "collateral": 102455734,
+      "decimals": 6,
+      "name": "USD Coin",
+      "symbol": "USDC"
+    }
+  },
+  "0x127728662484CAaf377f57c6a497EE14e8d21DBC": {
+    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+      "collateral": 1334958027002561,
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    }
+  },
+  "0x1288e3daD9Deb275deb8793F5E206ab17BF11224": {
+    "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+      "collateral": 31719936500407796916,
+      "decimals": 18,
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH"
+    },
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+      "borrow": 254069136982,
+      "decimals": 6,
+      "name": "USD Coin",
+      "symbol": "USDC"
+    },
+    "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704": {
+      "collateral": 464975666256614749184,
+      "decimals": 18,
+      "name": "Coinbase Wrapped Staked ETH",
+      "symbol": "cbETH"
+    }
+  },
+  "0x12DF82A443c77eAe9d5Bb0F5c8d0EC706ECb338c": {
+    "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84": {
+      "borrow": 179885794974454217278438,
+      "collateral": 195632033234857433626423,
+      "decimals": 18,
+      "name": "Liquid staked Ether 2.0",
+      "symbol": "stETH"
+    }
+  },
+  "0x12E46D0FfB93D378020e08442e418e15A645baC0": {
+    "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+      "collateral": 768485736478058094,
+      "decimals": 18,
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH"
+    },
+    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+      "borrow": 310965917657083432,
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    }
+  },
+  "0x133889Fa0721e3dA0a2e9A6D3212c083eD9db8D5": {
+    "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
+      "collateral": 172953056629810,
+      "decimals": 18,
+      "name": "Dai Stablecoin",
+      "symbol": "DAI"
+    }
+  },
+  "0x139776871Ee95f55d20b10d9Ba5a0385451066cd": {
+    "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984": {
+      "borrow": 35273221097317140432100,
+      "collateral": 43765744784142205756899,
+      "decimals": 18,
+      "name": "Uniswap",
+      "symbol": "UNI"
+    },
+    "0xf1Dc500FdE233A4055e25e5BbF516372BC4F6871": {
+      "collateral": 528493083203409303743,
+      "decimals": 18,
+      "name": "Saddle DAO",
+      "symbol": "SDL"
+    }
+  },
+  "0x13C03641c376Bbd2113e7fDD02e92D0BBef72511": {
+    "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
+      "collateral": 618126038271528648,
+      "decimals": 18,
+      "name": "Dai Stablecoin",
+      "symbol": "DAI"
+    },
+    "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0": {
+      "collateral": 10635392361771169,
+      "decimals": 18,
+      "name": "Matic Token",
+      "symbol": "MATIC"
+    },
+    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+      "collateral": 1918111391245,
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    }
+  },
+  "0x13EC6955aA74D6dEBc4ea7510087C47607084197": {
+    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+      "collateral": 4107483466223933,
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    }
+  },
+  "0x13d0716F2FAa2F4E5be56041F713ab5B3C139507": {
+    "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+      "collateral": 37933735611971442512,
+      "decimals": 18,
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH"
+    },
+    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+      "borrow": 15540045116710153212,
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    }
+  },
+  "0x13dDA63C28bB95FE9822FEA43ad5fEaA966636a9": {
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+      "collateral": 21089,
+      "decimals": 6,
+      "name": "USD Coin",
+      "symbol": "USDC"
+    }
+  },
+  "0x14007449b25fF24e7b386B2eE7DdD38847cbb7A2": {
+    "0x111111111117dC0aa78b770fA6A738034120C302": {
+      "borrow": 41909025741789870,
+      "decimals": 18,
+      "name": "1INCH Token",
+      "symbol": "1INCH"
+    },
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+      "collateral": 1026701,
+      "decimals": 6,
+      "name": "USD Coin",
+      "symbol": "USDC"
+    }
+  },
+  "0x1433C27dc3cB0567aa84ea17bfb48509a42B171b": {
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+      "collateral": 1530686859,
+      "decimals": 6,
+      "name": "USD Coin",
+      "symbol": "USDC"
+    }
+  },
+  "0x146889DcB943aa3B428490f445338002A1610102": {
+    "0x4d224452801ACEd8B2F0aebE155379bb5D594381": {
+      "collateral": 19340813961934112864,
+      "decimals": 18,
+      "name": "ApeCoin",
+      "symbol": "APE"
+    }
+  },
+  "0x1469038edCE33e3EFB5D689586f408b6512f8b26": {
+    "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE": {
+      "borrow": 68293881860986021893166,
+      "decimals": 18,
+      "name": "SHIBA INU",
+      "symbol": "SHIB"
+    },
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+      "collateral": 5028366,
+      "decimals": 6,
+      "name": "USD Coin",
+      "symbol": "USDC"
+    }
+  },
+  "0x14730014EeA880F2D52aC0b67442c485242D9B9c": {
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+      "collateral": 1945,
+      "decimals": 6,
+      "name": "USD Coin",
+      "symbol": "USDC"
+    }
+  },
+  "0x14975679e5f87c25fa2c54958e735a79B5B93043": {
+    "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+      "collateral": 162565493450409601558,
+      "decimals": 18,
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH"
+    }
+  },
+  "0x14B5Eb80797280066665602246b6AcBE77bfb90e": {
+    "0x3b484b82567a09e2588A13D54D032153f0c0aEe0": {
+      "collateral": 12843955458401563288966859,
+      "decimals": 18,
+      "name": "SOS",
+      "symbol": "SOS"
+    },
+    "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+      "collateral": 121118579939824,
+      "decimals": 18,
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH"
+    },
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+      "borrow": 6781071234,
+      "collateral": 18,
+      "decimals": 6,
+      "name": "USD Coin",
+      "symbol": "USDC"
+    },
+    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+      "collateral": 9108455195338932053,
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    },
+    "0xd9Fcd98c322942075A5C3860693e9f4f03AAE07b": {
+      "collateral": 175843016363999047449,
+      "decimals": 18,
+      "name": "Euler",
+      "symbol": "EUL"
+    },
+    "0xdAC17F958D2ee523a2206206994597C13D831ec7": {
+      "collateral": 78,
+      "decimals": 6,
+      "name": "Tether USD",
+      "symbol": "USDT"
+    }
+  },
+  "0x14b3efF0d4CA46931733CEF5793B45C9bcB1E9d7": {
+    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+      "collateral": 4107815358234350,
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    }
+  },
+  "0x14c99531C09d72bEE19e762956f577E95ffef918": {
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+      "collateral": 1647192,
+      "decimals": 6,
+      "name": "USD Coin",
+      "symbol": "USDC"
+    }
+  },
+  "0x14d3EbBe0cbf0628141A4115d83E25bCD9bf6001": {
+    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+      "collateral": 2053741403687625,
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    }
+  },
+  "0x15691e4Db66Dd8fEEBa5F32d0dCE39E341359578": {
+    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+      "collateral": 143277080625928946,
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    }
+  },
+  "0x156daF376cfbDD938c470a227508B0ba022C998F": {
+    "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+      "collateral": 170014283048455114561,
+      "decimals": 18,
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH"
+    }
+  },
+  "0x157595f04C0da495D72CEb84390f444D469c3216": {
+    "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
+      "borrow": 49314604,
+      "decimals": 8,
+      "name": "Wrapped BTC",
+      "symbol": "WBTC"
+    },
+    "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+      "collateral": 9924414527912466226,
+      "decimals": 18,
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH"
+    }
+  },
+  "0x157595f04C0da495D72ceB84390f444d469c3217": {
+    "0x269616D549D7e8Eaa82DFb17028d0B212D11232A": {
+      "collateral": 15941642172189,
+      "decimals": 18,
+      "name": "CryptoPunks",
+      "symbol": "PUNK"
+    },
+    "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+      "collateral": 386842777078,
+      "decimals": 18,
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH"
+    }
+  },
+  "0x158138fFa54022705fED5D21B338Bda32621c055": {
+    "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704": {
+      "borrow": 14762140541274,
+      "decimals": 18,
+      "name": "Coinbase Wrapped Staked ETH",
+      "symbol": "cbETH"
+    },
+    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+      "collateral": 4512368983880636553,
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    }
+  },
+  "0x15A884C3858fdf00552EeDC08e93f0B5113e1B08": {
+    "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+      "collateral": 904503154923327284,
+      "decimals": 18,
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH"
+    },
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+      "borrow": 802172635,
+      "decimals": 6,
+      "name": "USD Coin",
+      "symbol": "USDC"
+    },
+    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+      "collateral": 442887885083071777,
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    }
+  },
+  "0x15C2a8CfF70AdD711c2f52Cc733b3c4cc0b34422": {
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+      "borrow": 124384381,
+      "decimals": 6,
+      "name": "USD Coin",
+      "symbol": "USDC"
+    },
+    "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84": {
+      "collateral": 392672418833252231,
+      "decimals": 18,
+      "name": "Liquid staked Ether 2.0",
+      "symbol": "stETH"
+    },
+    "0xdAC17F958D2ee523a2206206994597C13D831ec7": {
+      "borrow": 306987624,
+      "decimals": 6,
+      "name": "Tether USD",
+      "symbol": "USDT"
+    }
+  },
+  "0x15CED06a94aAc40d44732fbD3Bebd0D55431A6d8": {
+    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+      "collateral": 1278490872478366,
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    }
+  },
+  "0x15ae76920e6C3570E13e443677A0503E6e95bF79": {
+    "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
+      "collateral": 183350020,
+      "decimals": 8,
+      "name": "Wrapped BTC",
+      "symbol": "WBTC"
+    },
+    "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0": {
+      "borrow": 400751962310307200145741,
+      "decimals": 18,
+      "name": "LUSD Stablecoin",
+      "symbol": "LUSD"
+    },
+    "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+      "collateral": 817474686802217793522,
+      "decimals": 18,
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH"
+    },
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+      "borrow": 684441362385,
+      "decimals": 6,
+      "name": "USD Coin",
+      "symbol": "USDC"
+    },
+    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+      "collateral": 1057115668090978149632,
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    },
+    "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84": {
+      "collateral": 69780799718153,
+      "decimals": 18,
+      "name": "Liquid staked Ether 2.0",
+      "symbol": "stETH"
+    }
+  },
+  "0x16021DeA1a3E676E224FB08C81755f0CFc1b1D1F": {
+    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+      "borrow": 1939609851085591,
+      "collateral": 3050153043107790,
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    }
+  },
+  "0x1609665376e39e9D9cdfDC75E44f80BB899e9d21": {
+    "0xc944E90C64B2c07662A292be6244BDf05Cda44a7": {
+      "collateral": 24881564632685896423769,
+      "decimals": 18,
+      "name": "Graph Token",
+      "symbol": "GRT"
+    }
+  },
+  "0x1609c0378472117eEA9BA48ECfE23104A100De43": {
+    "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
+      "collateral": 28024247934374891118,
+      "decimals": 18,
+      "name": "Dai Stablecoin",
+      "symbol": "DAI"
+    }
+  },
+  "0x161F9eF2e1402fCF10E11E9C868B236d7Fef833d": {
+    "0x50D1c9771902476076eCFc8B2A83Ad6b9355a4c9": {
+      "borrow": 13672265753313420423,
+      "collateral": 13111816247902262564,
+      "decimals": 18,
+      "name": "FTT",
+      "symbol": "FTX Token"
+    },
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+      "collateral": 85039674,
+      "decimals": 6,
+      "name": "USD Coin",
+      "symbol": "USDC"
+    }
+  },
+  "0x164a8379198a8d7155a1F0eaB9BAA256078d378E": {
+    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+      "collateral": 2047876766600246,
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    }
+  },
+  "0x164d6E3CE5AB3B7863a8B741214F2667a7Dcf063": {
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+      "collateral": 20633576,
+      "decimals": 6,
+      "name": "USD Coin",
+      "symbol": "USDC"
+    }
+  },
+  "0x16598793223CA18E5Fcf2ec1b1AAf3f0d46C0171": {
+    "0xf1B99e3E573A1a9C5E6B2Ce818b617F0E664E86B": {
+      "collateral": 802651637950625956,
+      "decimals": 18,
+      "name": "Opyn Squeeth",
+      "symbol": "oSQTH"
+    }
+  },
+  "0x166d51D2834856AEb852ebDf7b77B6148f0EAe22": {
+    "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
+      "collateral": 3068752,
+      "decimals": 8,
+      "name": "Wrapped BTC",
+      "symbol": "WBTC"
+    },
+    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+      "borrow": 331992155787787534,
+      "collateral": 1145243459580681,
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    }
+  },
+  "0x166ed9f7A56053c7c4E77CB0C91a9E46bbC5e8b0": {
+    "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+      "collateral": 10643186730476,
+      "decimals": 18,
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH"
+    }
+  },
+  "0x167539702B5501aADd9B0B85E53532Fd57cC71a9": {
+    "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+      "collateral": 40,
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
+    }
   }
 }
