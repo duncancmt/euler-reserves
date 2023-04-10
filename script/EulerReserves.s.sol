@@ -2,7 +2,6 @@
 pragma solidity ^0.8.19;
 
 import {Common, IERC20Meta} from "./Common.s.sol";
-import "forge-std/console.sol";
 
 contract EulerReserves is Common {
   function run() public {
@@ -10,6 +9,7 @@ contract EulerReserves is Common {
 
     string memory outputKey = "outputKey";
     string memory outputJson;
+
     for (uint256 i; i < _UNDERLYINGS.length; i++) {
       // get Euler reserve
       IERC20Meta underlying = _UNDERLYINGS[i];
