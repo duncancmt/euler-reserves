@@ -5,10 +5,6 @@ import {Common, IERC20Meta, IEToken, IDToken} from "./Common.s.sol";
 import "forge-std/console.sol";
 
 contract EulerBalances is Common {
-  address[] internal _USERS = [
-    0x83a59Ce2eF545c019e77c542552eC0f0f58402B6
-  ];
-
   function run() public {
     _fork();
 

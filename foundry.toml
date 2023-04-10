@@ -4,8 +4,9 @@ out = 'out'
 libs = ['lib']
 fs_permissions = [
   { access = "read", path = "./tokens.json" },
-  { access = "read-write", path = "./reserves.json"},
-  { access = "read-write", path = "./balances.json"}
+  { access = "read", path = "./users.json" },
+  { access = "write", path = "./reserves.json"},
+  { access = "write", path = "./balances.json"}
 ]
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config

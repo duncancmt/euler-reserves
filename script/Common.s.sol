@@ -78,6 +78,7 @@ abstract contract Common is Script {
   uint256 internal constant _FORK_BLOCK = 16_819_246; // the block before the final freeze
 
   IERC20Meta[] internal _UNDERLYINGS;
+  address[] internal _USERS;
 
   function setUp() public {
     // retrieved by parsing the MarketActivated events on _EULER
@@ -85,6 +86,8 @@ abstract contract Common is Script {
     for (uint256 i; i < tokensRaw.length; i++) {
       _UNDERLYINGS.push(IERC20Meta(tokensRaw[i]));
     }
+    // retrieved from https://raw.githubusercontent.com/brian0641/euler_hack/master/account_state_fetch/all_accounts.log
+    _USERS = vm.parseJsonAddressArray(vm.readFile("./users.json"), ".users");
   }
 
   function _fork() internal returns (uint256 forkId) {
