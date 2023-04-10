@@ -4,6 +4,8 @@ pragma solidity ^0.8.19;
 import {Common, IERC20Meta, IEToken, IDToken} from "./Common.s.sol";
 
 contract EulerBalances is Common {
+  uint256 internal constant _DUST = 10 wei;
+
   function run() public {
     _fork();
 
@@ -28,7 +30,8 @@ contract EulerBalances is Common {
       //     ...
       //   },
       //   ...
-      // if a user has no collateral or borrow in a token, that token is omitted.
+      // if a user has no collateral or borrow in a token, that token is
+      // omitted. If a user has no collaterals or borrows, that user is omitted.
       //
       // `userKey` is used both as the identifier for the temporary object and
       // as the key it's stored at in the `outputKey` object. Likewise, we
@@ -44,22 +47,24 @@ contract EulerBalances is Common {
         uint256 collateral = eToken.balanceOfUnderlying(user);
         uint256 borrow = dToken.balanceOf(user);
 
-        if (collateral > 0 || borrow > 0) {
+        if (collateral > _DUST || borrow > _DUST) {
           string memory underlyingKey = vm.toString(address(underlying));
           string memory underlyingJson = _metaToJson(underlyingKey, underlying);
 
-          if (collateral > 0) {
+          if (collateral > _DUST) {
             underlyingJson = vm.serializeUint(underlyingKey, "collateral", collateral);
           }
-          if (borrow > 0) {
+          if (borrow > _DUST) {
             underlyingJson = vm.serializeUint(underlyingKey, "borrow", borrow);
           }
           // Store the object for the underlying asset in the user object.
           userJson = vm.serializeString(userKey, underlyingKey, underlyingJson);
         }
       }
-      // Store the object for the user in the global output object.
-      outputJson = vm.serializeString(outputKey, userKey, userJson);
+      if (bytes(userJson).length > 0) {
+        // Store the object for the user in the global output object.
+        outputJson = vm.serializeString(outputKey, userKey, userJson);
+      }
     }
     vm.writeJson(outputJson, "./balances.json");
   }
