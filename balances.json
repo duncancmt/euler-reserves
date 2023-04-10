@@ -1,0 +1,28 @@
+{
+  "0x83a59Ce2eF545c019e77c542552eC0f0f58402B6": {
+    "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
+      "borrow": 1805820687,
+      "decimals": 8,
+      "name": "Wrapped BTC",
+      "symbol": "WBTC"
+    },
+    "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+      "collateral": 380133783162637490697,
+      "decimals": 18,
+      "name": "Wrapped liquid staked Ether 2.0",
+      "symbol": "wstETH"
+    },
+    "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+      "collateral": 4360125612,
+      "decimals": 6,
+      "name": "USD Coin",
+      "symbol": "USDC"
+    },
+    "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704": {
+      "borrow": 66842730209802297080,
+      "decimals": 18,
+      "name": "Coinbase Wrapped Staked ETH",
+      "symbol": "cbETH"
+    }
+  }
+}
