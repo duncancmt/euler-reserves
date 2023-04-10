@@ -20,9 +20,13 @@ interface IMarkets {
 
 
 contract EulerReserves is Script {
-  //address private constant _EULER = 0x27182842E098f60e3D576794A5bFFb0777E025d3;
+  address private constant _EULER = 0x27182842E098f60e3D576794A5bFFb0777E025d3;
+  bytes32 private constant _ETOKEN_IMPL_SLOT = 0x808d1a1e48dd4ab99cb7d5984bb45542b205ab6ccb19608b922097f06df90bf7;
+  address private constant _ETOKEN_IMPL_ADDRESS = 0xbb0D4bb654a21054aF95456a3B29c63e8D1F4c0a;
+  bytes32 private constant _DTOKEN_IMPL_SLOT = 0x6074b2cb7ae76823e3f549465b08b3f693d837cb66960bba9594ed84da63ca26;
+  address private constant _DTOKEN_IMPL_ADDRESS = 0x29DaDdfdA3442693c21A50351a2B4820DDbBFF79;
   IMarkets private constant _MARKETS = IMarkets(0x3520d5a913427E6F0D6A83E07ccD4A4da316e4d3);
-  uint256 private constant _FORK_BLOCK = 16_817_995; // the block before the first hack contract drained DAI
+  uint256 private constant _FORK_BLOCK = 16_819_246; // the block before the final freeze
 
   function setUp() public {}
 
@@ -31,6 +35,8 @@ contract EulerReserves is Script {
     console.log("creating fork from", forkRpc, "at", _FORK_BLOCK);
     uint256 forkId = vm.createSelectFork(forkRpc, _FORK_BLOCK);
     console.log("\tfork created");
+    vm.store(_EULER, _ETOKEN_IMPL_SLOT, bytes32(uint256(uint160(_ETOKEN_IMPL_ADDRESS))));
+    vm.store(_EULER, _DTOKEN_IMPL_SLOT, bytes32(uint256(uint160(_DTOKEN_IMPL_ADDRESS))));
 
     // retrieved by parsing the MarketActivated events on _EULER
     address[] memory underlyings = new address[](129);
