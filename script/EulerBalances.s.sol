@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 pragma solidity ^0.8.19;
 
-import {Common, IEToken, IDToken} from "./Common.s.sol";
+import {Common, IERC20Meta, IEToken, IDToken} from "./Common.s.sol";
 import "forge-std/console.sol";
 
 contract EulerBalances is Common {
@@ -21,23 +21,23 @@ contract EulerBalances is Common {
       string memory userJson;
 
       for (uint256 i; i < _UNDERLYINGS.length; i++) {
-        address underlying = _UNDERLYINGS[i];
+        IERC20Meta underlying = _UNDERLYINGS[i];
         IEToken eToken = _MARKETS.underlyingToEToken(underlying);
         IDToken dToken = _MARKETS.underlyingToDToken(underlying);
         //uint256 eTokenBalance = eToken.balanceOf(user);
         uint256 collateral = eToken.balanceOfUnderlying(user);
-        uint256 debt = dToken.balanceOf(user);
+        uint256 borrow = dToken.balanceOf(user);
 
-        if (collateral > 0 || debt > 0) {
-          console.log(user, underlying, collateral, debt);
-          string memory underlyingKey = vm.toString(underlying);
-          string memory underlyingJson;
+        if (collateral > 0 || borrow > 0) {
+          console.log(user, address(underlying), collateral, borrow);
+          string memory underlyingKey = vm.toString(address(underlying));
+          string memory underlyingJson = _metaToJson(underlyingKey, underlying);
 
           if (collateral > 0) {
             underlyingJson = vm.serializeUint(underlyingKey, "collateral", collateral);
           }
-          if (debt > 0) {
-            underlyingJson = vm.serializeUint(underlyingKey, "debt", debt);
+          if (borrow > 0) {
+            underlyingJson = vm.serializeUint(underlyingKey, "borrow", borrow);
           }
           userJson = vm.serializeString(userKey, underlyingKey, underlyingJson);
         }
