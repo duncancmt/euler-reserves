@@ -2,6 +2,6 @@
 src = 'src'
 out = 'out'
 libs = ['lib']
-fs_permissions = [{ access = "read-write", path = "./output.json"}]
+fs_permissions = [{ access = "read-write", path = "./output.json"}, { access = "read-write", path = "./balances.json"}]
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
