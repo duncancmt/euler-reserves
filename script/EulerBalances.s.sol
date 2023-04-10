@@ -56,7 +56,7 @@ contract EulerBalances is Common {
         if (collateral > _DUST || borrow > _DUST) {
           string memory underlyingAddress = vm.toString(address(underlying));
           string memory underlyingKey = string.concat(userKey, underlyingAddress);
-          string memory underlyingJson = _metaToJson(underlyingKey, underlying);
+          string memory underlyingJson; // = _metaToJson(underlyingKey, underlying);
 
           if (collateral > _DUST) {
             underlyingJson = vm.serializeUint(underlyingKey, "collateral", collateral);
@@ -73,6 +73,6 @@ contract EulerBalances is Common {
         outputJson = vm.serializeString(outputKey, userKey, userJson);
       }
     }
-    vm.writeJson(outputJson, "./balances.json");
+    vm.writeJson(outputJson, string.concat("./balances_out/balances.", vm.toString(start), ".json"));
   }
 }
