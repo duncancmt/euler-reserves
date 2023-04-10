@@ -40,8 +40,8 @@ contract EulerBalances is Common {
       // omitted. If a user has no collaterals or borrows, that user is omitted.
       //
       // `userKey` is used both as the identifier for the temporary object and
-      // as the key it's stored at in the `outputKey` object. Likewise, we
-      // reused `underlyingKey` below.
+      // as the key it's stored at in the `outputKey` object. `underlyingKey`
+      // does not get reused because it confuses the JSON serializer.
       string memory userKey = vm.toString(user);
       string memory userJson;
 
@@ -54,7 +54,8 @@ contract EulerBalances is Common {
         uint256 borrow = dToken.balanceOf(user);
 
         if (collateral > _DUST || borrow > _DUST) {
-          string memory underlyingKey = vm.toString(address(underlying));
+          string memory underlyingAddress = vm.toString(address(underlying));
+          string memory underlyingKey = string.concat(userKey, underlyingAddress);
           string memory underlyingJson = _metaToJson(underlyingKey, underlying);
 
           if (collateral > _DUST) {
@@ -64,7 +65,7 @@ contract EulerBalances is Common {
             underlyingJson = vm.serializeUint(underlyingKey, "borrow", borrow);
           }
           // Store the object for the underlying asset in the user object.
-          userJson = vm.serializeString(userKey, underlyingKey, underlyingJson);
+          userJson = vm.serializeString(userKey, underlyingAddress, underlyingJson);
         }
       }
       if (bytes(userJson).length > 0) {
