@@ -6,13 +6,19 @@ import {Common, IERC20Meta, IEToken, IDToken} from "./Common.s.sol";
 contract EulerBalances is Common {
   uint256 internal constant _DUST = 10 wei;
 
-  function run() public {
+  function run(uint256 start, uint256 stop) public {
     _fork();
 
     string memory outputKey = "outputKey";
     string memory outputJson;
 
-    for (uint256 j; j < _USERS.length; j++) {
+    if (start >= _USERS.length) {
+      start = _USERS.length - 1;
+    }
+    if (stop >= _USERS.length) {
+      stop = _USERS.length - 1;
+    }
+    for (uint256 j = start; j < stop; j++) {
       // for convenience of parsing, we put the user as the top-level object,
       // even though it's more natural and gas efficient to put the underlying
       // token there instead
