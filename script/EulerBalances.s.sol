@@ -36,8 +36,9 @@ contract EulerBalances is Common {
       //     ...
       //   },
       //   ...
-      // if a user has no collateral or borrow in a token, that token is
-      // omitted. If a user has no collaterals or borrows, that user is omitted.
+      // if a user has no collateral or borrow (above the dust threshold) in a
+      // token, that token is omitted. If a user has no tokens, that user is
+      // omitted.
       //
       // `userKey` is used both as the identifier for the temporary object and
       // as the key it's stored at in the `outputKey` object. `underlyingKey`
