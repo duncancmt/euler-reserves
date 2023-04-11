@@ -27,9 +27,6 @@ contract EulerBalances is Common {
       // structure output as:
       //   "0xAccountAddress": {
       //     "0xTokenAddress": {
-      //       decimals?: number,
-      //       name?: string,
-      //       symbol?: string
       //       collateral?: number,
       //       borrow?: number,
       //     },
