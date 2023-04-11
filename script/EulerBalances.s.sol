@@ -2,6 +2,7 @@
 pragma solidity ^0.8.19;
 
 import {Common, IERC20Meta, IEToken, IDToken} from "./Common.s.sol";
+import "forge-std/console.sol";
 
 contract EulerBalances is Common {
   uint256 internal constant _DUST = 10 wei;
@@ -50,6 +51,7 @@ contract EulerBalances is Common {
         //uint256 eTokenBalance = eToken.balanceOf(user);
         uint256 collateral = eToken.balanceOfUnderlying(user);
         uint256 borrow = dToken.balanceOf(user);
+        //console.log(user, address(underlying), collateral, borrow);
 
         if (collateral > _DUST || borrow > _DUST) {
           string memory underlyingAddress = vm.toString(address(underlying));

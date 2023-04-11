@@ -75,7 +75,7 @@ abstract contract Common is Script {
   bytes32 internal constant _DTOKEN_IMPL_SLOT = 0x6074b2cb7ae76823e3f549465b08b3f693d837cb66960bba9594ed84da63ca26;
   address internal constant _DTOKEN_IMPL_ADDRESS = 0x29DaDdfdA3442693c21A50351a2B4820DDbBFF79;
   IMarkets internal constant _MARKETS = IMarkets(0x3520d5a913427E6F0D6A83E07ccD4A4da316e4d3);
-  uint256 internal constant _FORK_BLOCK = 16_819_246; // the block before the final freeze
+  uint256 internal constant _FORK_BLOCK = 16_819_246; // the block before the final freeze // 16_817_995;
 
   IERC20Meta[] internal _UNDERLYINGS;
   address[] internal _USERS;
