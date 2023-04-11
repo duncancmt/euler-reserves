@@ -15,8 +15,8 @@ contract EulerBalances is Common {
     if (start >= _USERS.length) {
       start = _USERS.length - 1;
     }
-    if (stop >= _USERS.length) {
-      stop = _USERS.length - 1;
+    if (stop > _USERS.length) {
+      stop = _USERS.length;
     }
     for (uint256 j = start; j < stop; j++) {
       // for convenience of parsing, we put the user as the top-level object,
